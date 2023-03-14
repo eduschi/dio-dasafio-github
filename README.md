@@ -1,2 +1,2 @@
-# dio-dasafio-github
+# dio-desafio-github
 Repositório do desafio github do bootcamp DIO Banco Pan Java Developer
