@@ -1,0 +1,218 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  background-color: ##000;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost", sans-serif;
+}
+
+a:visited {
+	color: red;
+}
+.logo {
+	position: absolute;
+	height: 90px;
+	width: 90px;
+	top: 90px;
+	left: 65px;
+	
+	
+}
+.space {
+	height: 10px;
+	
+}
+section {
+  padding: 9px 0;
+  overflow: hidden;
+  
+}
+
+li {
+	height: 20px;
+	top: 20px;
+	
+}
+
+.section-bg {
+  background-color: #f3f5fa;
+  box-shadow: 3px 1px 1px black;
+}
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #363636;
+}
+.section-title a {
+	font-size: 22px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	
+	letter-spacing: 0.1px;	
+	color: #37517e;
+	
+}
+.section-title h1 {
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 3px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: white;
+}
+
+
+
+
+.section-title p {
+  margin-bottom: 0;
+}
+.section-body {
+	text-align: center;
+	padding-bottom: 1px;
+	background-color: #f3f5fa;
+  
+}
+
+.section-body content{
+	line-height: 1px;
+}
+.center{
+	text-align: center;
+	line-height: 2px;
+}
+.container {
+	text-align: center;
+	font-family: "Jost", sans-serif;
+}
+#white {
+	text-align: justify;
+	padding: 20px 40px 0 290px;
+	height: 360px;
+	
+		
+}
+#left-side {
+	position: absolute;
+	left: 8px;
+	top: 179px;
+	width: 200px;
+	height: 400px;
+	background-color: #363636;
+
+	
+}
+#white-rabbit {
+	color: white;
+	
+	
+}
+#snow {
+	color: white;
+	
+}  
+#left-side-content {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 160px;
+	height: 360px;
+	background-color: #4f4f4f;
+	
+	
+}
+.box {
+  display: block;
+  position: absolute;
+  height: 25px;
+  background: #363636;
+  border: 1px;
+  color: white;
+  top: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+.box a {
+	position: relative;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	top: 3px;
+	text-decoration: none;
+	
+}
+.box a:hover{
+	color: black;
+	text-decoration: none;
+}
+.box:hover{
+	background: white;
+	color: black;
+	
+	
+	
+}
+.menu {
+	font-family: "Open Sans", sans-serif;
+	color: #444444;
+	background-color: ##000;
+	
+}	
+#eu {
+	position: absolute;
+	left: 8px;
+	top: 10px;
+	width: 658px;
+	
+}	
+#eu:hover{
+	background: #363636;
+	color: black;
+	
+}
+#box1 {
+	position: absolute;
+	left: 667px;
+	top: 10px;
+	width: 110px;
+	
+}
+
+#box2 {
+	position: absolute;
+	left: 778px;
+	top: 10px;
+	width: 120px;
+}
+#box3 {
+	position: absolute;
+	left: 899px;
+	top: 10px;
+	width: 308px;
+}
+#box4 {
+	position: absolute;
+	left: 1208px;
+	top: 10px;
+	width: 150px;
+}
