@@ -28,6 +28,14 @@ a:visited {
 	
 	
 }
+.ilustracao{
+	position: relative;
+	left: 250px;
+	
+	
+	
+}
+
 .space {
 	height: 10px;
 	
@@ -113,7 +121,7 @@ li {
 #left-side {
 	position: absolute;
 	left: 8px;
-	top: 179px;
+	top: 177px;
 	width: 200px;
 	height: 400px;
 	background-color: #363636;
