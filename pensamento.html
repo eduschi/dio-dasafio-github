@@ -8,23 +8,20 @@
 
     <!-- Bootstrap CSS -->
 	
-		
     <link href="./styles/style.css" rel="stylesheet">
 	
+	
+	<script src="./styles/intervalo.js"></script>
+	
 
-    <title>Pensamento Computacional</title>
+    <title>Sobre min</title>
   </head>
-  <body>
-  
-  
-  
   <section class="section-bg">
   
   <section class="menu">
   <img class="logo" src="./styles/logo-pan.webp">
-  
   <div id="eu" class="box">
-  <a>Eduardo da Silva Schiavon</a>
+  <a class="fake-box">Eduardo da Silva Schiavon</a>
   </div>
   
   <div id="box1" class="box">
@@ -36,16 +33,15 @@
   <div id="box3" class="box">
   <a href="./pensamento.html"> Pensamento computacional</a>
   </div>
-  <div id="box4" class="box">
-  <a href="./agil.html"> Gestão Agil</a>
+  <div id="box5" class="box">
+  <a href="./agil.html"> Gestão Ágil</a>
   </div>
   </section>
-  
     
 	 <section class="section-title">
 	 
 
-    <div class="container">
+    <div class="container" id="title">
 	    
         <h2>bootcamp Banco Pan java developer </h2>
         
@@ -53,8 +49,11 @@
     </div>
   </section>
   <section class="section-body">
-	<div class="container" id="left-side">
+	<div class="container" id="left-block">
+		
 		<div class="container" id="left-side-content">
+		
+		
 			<content class="left-menu" id="white-rabbit">
 			<p class="center" id="snow"> <b>Sobre:</b></p>
 			 Neste espaço consta anotações sobre o treinamento sobre pensamento computacional 
@@ -64,7 +63,7 @@
 		
 	</div> 
 
-	<div class="container" id="white"> 
+	<div class="container" id="expanded"> 
 		<content>
 			O <b>Pensamento Computacional</b> é um processo cognitivo, que nos permite decompor problemas complexos
 			facilitando sua resolução. Seu uso não se restringe a programação, seu metodo é baseado na analise, decomposição,
@@ -78,6 +77,23 @@
 			Observou se que somando o primeiro e ultimo número o resultado era parecido.
 			<figure class="ilustracao" > <img src="./styles/pensamento4.png">
 			</figure>
+			Logo ao invés de somar um número com outro, somamos o primeiro com último um número de vezes igual a metade
+			do intervalo. 
+			no python ficou assim.
+			<figure class="ilustracao" > <img src="./styles/pensamento1.png">
+			</figure>
+			<figure class="ilustracao" > <img src="./styles/pensamento2.png">
+			</figure>
+			 <section>
+            <div class="centro">
+                Primeiro valor:
+                <input class="num1" type="text"><br>
+                Segundo valor:
+                <input class="num2" type="number"><br>
+                <button onclick="intervalo()">Resultado</button>
+                <p class="resultado"></p>
+            </div>
+        </section>
 			
 	
 		</content>

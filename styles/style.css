@@ -1,4 +1,7 @@
 
+@media only screen and (max-device-width: 600px) {
+/* .menu { width:50%; } */
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -16,9 +19,6 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
-a:visited {
-	color: red;
-}
 .logo {
 	position: absolute;
 	height: 90px;
@@ -30,7 +30,11 @@ a:visited {
 }
 .ilustracao{
 	position: relative;
-	left: 250px;
+	left: auto;
+	right: auto;
+	
+	
+	vertical-align: center;
 	
 	
 	
@@ -40,17 +44,18 @@ a:visited {
 	height: 10px;
 	
 }
+li.space {
+	height: 20px;
+	top: 20px;
+	
+}
 section {
   padding: 9px 0;
   overflow: hidden;
   
 }
 
-li {
-	height: 20px;
-	top: 20px;
-	
-}
+
 
 .section-bg {
   background-color: #f3f5fa;
@@ -89,10 +94,6 @@ li {
 
 
 
-
-.section-title p {
-  margin-bottom: 0;
-}
 .section-body {
 	text-align: center;
 	padding-bottom: 1px;
@@ -110,6 +111,12 @@ li {
 .container {
 	text-align: center;
 	font-family: "Jost", sans-serif;
+	
+}
+#expanded {
+	text-align: justify;
+	padding: 20px 40px 0 290px;
+	heigth: 660px;
 }
 #white {
 	text-align: justify;
@@ -118,18 +125,32 @@ li {
 	
 		
 }
-#left-side {
+#left-block {
 	position: absolute;
 	left: 8px;
 	top: 177px;
-	width: 200px;
+	width: 15%;
+	height: 758px;
+	background-color: #363636;
+	
+}
+
+#left-side {
+	position: fixed;
+	left: 8px;
+	top: 177px;
+	width: 15%;
 	height: 400px;
 	background-color: #363636;
+	
 
 	
 }
+
+
 #white-rabbit {
 	color: white;
+	text-align: center;
 	
 	
 }
@@ -140,42 +161,45 @@ li {
 #left-side-content {
 	position: absolute;
 	left: 20px;
-	top: 20px;
-	width: 160px;
-	height: 360px;
+	right:20px;
+	top: 20px; 
+	width:  80%;
+	height: 96%;
 	background-color: #4f4f4f;
 	
 	
 }
+
+
 .box {
   display: block;
-  position: absolute;
+  position: fixed;
   height: 25px;
   background: #363636;
   border: 1px;
-  color: white;
   top: 5px;
   text-transform: uppercase;
   text-align: center;
   
+  
 }
 .box a {
 	position: relative;
-	text-transform: uppercase;
-	text-align: center;
 	color: white;
 	font-weight: bold;
 	top: 3px;
 	text-decoration: none;
 	
-}
-.box a:hover{
+}                      
+
+.box:hover a:not(.fake-box){
 	color: black;
-	text-decoration: none;
+	
 }
-.box:hover{
-	background: white;
-	color: black;
+.box:hover:not(#eu){
+	background: rgba(255, 255, 255, 0.08);
+	
+	
 	
 	
 	
@@ -193,11 +217,8 @@ li {
 	width: 658px;
 	
 }	
-#eu:hover{
-	background: #363636;
-	color: black;
 	
-}
+
 #box1 {
 	position: absolute;
 	left: 667px;
@@ -223,4 +244,10 @@ li {
 	left: 1208px;
 	top: 10px;
 	width: 150px;
+}
+#box5 {
+	position: absolute;
+	left: 1208px;
+	top: 10px;
+	width: 10%;
 }
