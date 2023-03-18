@@ -125,6 +125,7 @@ section {
 	
 		
 }
+
 #left-block {
 	position: absolute;
 	left: 8px;
@@ -134,7 +135,15 @@ section {
 	background-color: #363636;
 	
 }
-
+#left-block1 {
+	position: absolute;
+	left: 8px;
+	top: 177px;
+	width: 15%;
+	height: 494px;
+	background-color: #363636;
+	
+}
 #left-side {
 	position: fixed;
 	left: 8px;
@@ -164,7 +173,7 @@ section {
 	right:20px;
 	top: 20px; 
 	width:  80%;
-	height: 96%;
+	height: 95%;
 	background-color: #4f4f4f;
 	
 	
